@@ -9,12 +9,12 @@ var app = angular.module( 'App', [
 
 app.config( ['$routeProvider',
 	function( $routeProvider) {
-		$routeProvider.
-			when( '/', {
+		$routeProvider
+			.when( '/', {
 				templateUrl: 'partials/partial1.html',
 				controller: 'Partial1Controller'
-			}).
-			when( '/page/2', {
+			})
+			.when( '/page/2', {
 				templateUrl: 'partials/partial2.html',
 				controller: 'Partial2Controller'
 			})
