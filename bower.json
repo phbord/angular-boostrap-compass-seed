@@ -15,8 +15,8 @@
         "respond": "latest",
         "angular": "latest",
         "angular-route": "latest",
-		"angular-loader": "latest",
-		"angular-mocks": "latest",
+        "angular-loader": "latest",
+        "angular-mocks": "latest",
         "angular-resource": "latest",
         "angular-animate": "latest"
     }
