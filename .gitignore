@@ -4,12 +4,12 @@ logs/*
 node_modules/
 bower_components/
 app/assets/css/*
-app/assets/fonts/*
-app/assets/img/*
-app/assets/js/*
 !app/assets/css/readme/
+app/assets/fonts/*
 !app/assets/fonts/readme/
+app/assets/img/*
 !app/assets/img/readme/
+app/assets/js/*
 !app/assets/js/readme/
 tmp
 .DS_Store

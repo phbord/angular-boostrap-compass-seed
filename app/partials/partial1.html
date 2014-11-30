@@ -1,6 +1,6 @@
 <div>
-	<h2>partial {{nb}}</h2>
+	<h2>page {{nb}}</h2>
 	<ul>
-		<li ng-repeat="data in datas">{{data.item}}</li>
+		<li ng-repeat="data in datas | orderBy:num">{{data.item}}</li>
 	</ul>
 </div>
