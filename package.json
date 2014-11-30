@@ -1,0 +1,17 @@
+{
+    "name": "angular-boostrap-compass-seed",
+    "private": true,
+    "version": "0.0.1",
+    "description": "A starter project for AngularJS, Boostrap and Compass",
+    "repository": "https://github.com/phbord/angular-boostrap-compass-seed",
+    "license": "MIT",
+    "devDependencies": {
+      "bower": "latest",
+      "grunt": "latest",
+      "grunt-contrib-compass": "latest",
+      "grunt-contrib-jshint": "latest",
+      "grunt-contrib-concat": "latest",
+      "grunt-contrib-uglify": "latest",
+      "grunt-contrib-watch": "latest"
+    }
+}

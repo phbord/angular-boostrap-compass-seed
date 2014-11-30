@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>MyProject</title>
+    <link href="assets/css/main.min.css" rel="stylesheet">
+    <script src="assets/js/modernizr/modernizr.js"></script>
+    <!--[if lt IE 9]>
+      <script src="assets/js/respond/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#" ng-controller="Partial1Controller">partial {{nb}}</a> - 
+        <a href="#/partial-{{nb}}" ng-controller="Partial2Controller">partial {{nb}}</a>
+      </nav>
+      <div class="content" ng-view></div>
+    </div>
+    <!-- JS LIBRARIES -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/angular/jquery/jquery.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <script src="/angular/jquery2/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="assets/js/angular/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/js/angular/jquery.jscroll/jquery.jscroll.min.js"></script>
+    <script src="assets/js/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"></script>
+    <script src="assets/js/angular/angular.js"></script>
+    <script src="assets/js/angular-resource/angular-resource.min.js"></script>
+    <script src="assets/js/angular-route/angular-route.min.js"></script>
+    <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <!-- JS APP -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>

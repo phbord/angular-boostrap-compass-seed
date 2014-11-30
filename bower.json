@@ -1,0 +1,23 @@
+{
+    "name": "angular-boostrap-compass-seed",
+    "description": "A starter project for AngularJS, Boostrap and Compass",
+    "version": "0.0.1",
+	"homepage": "https://github.com/phbord/angular-boostrap-compass-seed",
+	"license": "MIT",
+	"private": true,
+    "dependencies": {
+        "modernizr": "latest",
+        "jquery": "1.10.2",
+        "jquery2": "latest",
+        "jquery-ui": "latest",
+        "jquery.jscroll": "latest",
+        "bootstrap-sass-official": "latest",
+        "respond": "latest",
+        "angular": "latest",
+	    "angular-route": "latest",
+		"angular-loader": "latest",
+		"angular-mocks": "latest",
+        "angular-resource": "latest",
+        "angular-animate": "latest"
+    }
+}
