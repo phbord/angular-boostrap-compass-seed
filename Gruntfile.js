@@ -11,13 +11,14 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				src: [
+					'app/js/app.js', 
 					'app/js/animations.js', 
 					'app/js/controllers.js', 
 					'app/js/directives.js', 
 					'app/js/filters.js', 
 					'app/js/services.js'
 				],
-				dest: 'app/js/app.js'
+				dest: 'app/js/app.min.js'
 			}
 		},
 
