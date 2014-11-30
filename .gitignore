@@ -7,6 +7,10 @@ app/assets/css/*
 app/assets/fonts/*
 app/assets/img/*
 app/assets/js/*
+!app/assets/css/README.md
+!app/assets/fonts/README.md
+!app/assets/img/README.md
+!app/assets/js/README.md
 tmp
 .DS_Store
 .idea
