@@ -1,4 +1,4 @@
-var app = angular.module('App', [
+var app = angular.module( 'App', [
 	'ngRoute',
 	'AppControllers',
 	'AppFilters',
@@ -7,14 +7,14 @@ var app = angular.module('App', [
 	'AppAnimations'
 ]);
 
-app.config(['$routeProvider',
-	function($routeProvider) {
+app.config( ['$routeProvider',
+	function( $routeProvider) {
 		$routeProvider.
-			when('/', {
+			when( '/', {
 				templateUrl: 'partials/partial1.html',
 				controller: 'Partial1Controller'
 			}).
-			when('/page/2', {
+			when( '/page/2', {
 				templateUrl: 'partials/partial2.html',
 				controller: 'Partial2Controller'
 			})
