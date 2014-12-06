@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" ng-app="App">
+<html lang="fr" ng-app="App" ng-strict-di>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
       <script src="assets/js/respond/dest/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body ng-controller="DatasController">
     <div class="container">
       <nav>
         <a href="#" ng-controller="Partial1Controller">Page {{nb}}</a>
@@ -36,8 +36,6 @@
     <script src="assets/js/angular-resource/angular-resource.min.js"></script>
     <script src="assets/js/angular-route/angular-route.min.js"></script>
     <script src="assets/js/angular-animate/angular-animate.min.js"></script>
-    <script src="assets/js/angular-translate/angular-translate.min.js"></script>
-    <script src="assets/js/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
     <script src="assets/js/angular-cookies/angular-cookies.min.js"></script>
     <!-- JS APP -->
     <script src="js/app.js"></script>

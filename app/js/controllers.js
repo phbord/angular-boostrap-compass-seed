@@ -17,19 +17,25 @@ appControllers.controller( 'SystemLanguagesController', ['$scope', '$http', '$co
 	}
 ]);
 
-appControllers.controller( 'Partial1Controller', ['$scope', '$http', 'APP_CONSTANT', '$cookies', 
+appControllers.controller( 'DatasController', ['$scope', '$http', 'APP_CONSTANT', '$cookies', 
 	function( $scope, $http, APP_CONSTANT, $cookies) {
-		//Set variable
-		$scope.nb = 1;
-
 		//Get default or new language
         var lang = $cookies.__APPLICATION_LANGUAGE || APP_CONSTANT.LANG;
 
         //Json file parsing
-		$http({ method: 'POST', url: './json/datas-'+lang+'.json'}).success( function( data) {
-			$scope.datas = data;
-			$scope.num = '-num';
-		});
+		$http({ method: 'POST', url: './json/datas-'+lang+'.json' })
+			.success( function( data) {
+				$scope.datas = data;
+				$scope.num = '-num';
+			}
+		);
+	}
+]);
+
+appControllers.controller( 'Partial1Controller', ['$scope', 
+	function( $scope) {
+		//Set variable
+		$scope.nb = 1;
 	}
 ]);
 
