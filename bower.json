@@ -18,6 +18,9 @@
         "angular-loader": "latest",
         "angular-mocks": "latest",
         "angular-resource": "latest",
-        "angular-animate": "latest"
+        "angular-animate": "latest",
+        "angular-translate": "latest",
+        "angular-translate-loader-static-files": "latest",
+        "angular-cookies": "latest"
     }
 }

@@ -1,0 +1,13 @@
+nav {
+	padding: 10px 5px;
+	background-color: #000;
+	a {
+		margin-right: 20px;
+		color: #fff;
+		font-weight: bold;
+		&:hover {
+			color: yellow;
+			text-decoration: none;
+		}
+	}
+}

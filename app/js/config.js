@@ -1,5 +1,6 @@
-app.config( ['$routeProvider',
+var appConfig = app.config(['$routeProvider', 
 	function( $routeProvider) {
+		//Routes
 		$routeProvider
 			.when( '/', {
 				templateUrl: 'partials/partial1.html',
@@ -11,6 +12,13 @@ app.config( ['$routeProvider',
 			})
 			.otherwise({
 				redirectTo: '/'
-			});
+			})
+		;
 	}
 ]);
+
+var appConstant = app.constant( 
+	'APP_CONSTANT', {
+		'LANG': 'fr_FR'
+	}
+);

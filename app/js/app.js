@@ -4,5 +4,6 @@ var app = angular.module( 'App', [
 	'AppFilters',
 	'AppServices',
 	'AppDirectives',
-	'AppAnimations'
+	'AppAnimations',
+	'ngCookies'
 ]);

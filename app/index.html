@@ -15,8 +15,10 @@
   <body>
     <div class="container">
       <nav>
-        <a href="#" ng-controller="Partial1Controller">page {{nb}}</a> - 
-        <a href="#/page/{{nb}}" ng-controller="Partial2Controller">page {{nb}}</a>
+        <a href="#" ng-controller="Partial1Controller">Page {{nb}}</a>
+        <a href="#/page/{{nb}}" ng-controller="Partial2Controller">Page {{nb}}</a>
+        <a href="#" ng-controller="SystemLanguagesController" ng-click="setLanguage('fr_FR')">Français</a>
+        <a href="#" ng-controller="SystemLanguagesController" ng-click="setLanguage('en_US')">English</a>
       </nav>
       <div class="content" ng-view></div>
     </div>
@@ -34,9 +36,12 @@
     <script src="assets/js/angular-resource/angular-resource.min.js"></script>
     <script src="assets/js/angular-route/angular-route.min.js"></script>
     <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/js/angular-translate/angular-translate.min.js"></script>
+    <script src="assets/js/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="assets/js/angular-cookies/angular-cookies.min.js"></script>
     <!-- JS APP -->
     <script src="js/app.js"></script>
-    <script src="js/routes.js"></script>
+    <script src="js/config.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/services.js"></script>
